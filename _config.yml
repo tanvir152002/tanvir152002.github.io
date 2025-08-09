@@ -3,7 +3,7 @@ author: "Md. Tanvir Islam Emon"
 email: "tanvirtjs2002@gmail.com"
 description: "Material Science & Engineering student | Cybersecurity & Penetration Testing Enthusiast"
 url: "https://tanvir152002.github.io"     # no trailing slash
-baseurl: "/tanvir-portfolio"               # leading slash for project repo
+baseurl: ""               # leading slash for project repo
 remote_theme: "mmistakes/minimal-mistakes" # use remote theme
 plugins:
   - jekyll-remote-theme
