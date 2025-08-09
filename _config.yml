@@ -1,11 +1,80 @@
-title: "Md. Tanvir Islam Emon"
-author: "Md. Tanvir Islam Emon"
-email: "tanvirtjs2002@gmail.com"
-description: "Material Science & Engineering student | Cybersecurity & Penetration Testing Enthusiast"
-url: "https://tanvir152002.github.io"     # no trailing slash
-baseurl: ""               # leading slash for project repo
-remote_theme: "mmistakes/minimal-mistakes" # use remote theme
+# Theme Settings
+minimal_mistakes_skin    : "default"
+
+# Site Settings
+locale                   : "en-US"
+title                    : "Md. Tanvir Islam Emon"
+title_separator          : "-"
+subtitle                 : "Penetration Tester | Web Security Analyst | Materials Engineer"
+name                     : "Md. Tanvir Islam Emon"
+description              : "Materials Science & Engineering Undergraduate at RUET | Certified Ethical Hacker | Cybersecurity & Research Enthusiast"
+url                      : "https://your-username.github.io"   # Replace with your GitHub Pages URL
+baseurl                  : ""  # Leave empty if repo is yourusername.github.io, else /reponame
+repository               : "your-username/your-repo-name"      # Replace with your GitHub username/repo
+
+# Social Links (for rich previews and footer)
+social:
+  type: Person
+  name: "Md. Tanvir Islam Emon"
+  links:
+    - "https://www.linkedin.com/in/md-tanvir-islam-emon-5a60782a0/"
+    - "https://github.com/your-username"
+
+# Site Author
+author:
+  name             : "Md. Tanvir Islam Emon"
+  avatar           : "/assets/images/bio-photo.jpg"  # Upload a profile photo here
+  bio              : "BSc in Materials Science & Engineering at RUET | Cybersecurity enthusiast skilled in penetration testing, bug bounty hunting, and research."
+  location         : "Sherpur Upazila, Rajshahi, Bangladesh"
+  email            : "tanvirtjs2002@gmail.com"
+  links:
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: "mailto:tanvirtjs2002@gmail.com"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/md-tanvir-islam-emon-5a60782a0/"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/your-username"
+
+# Footer Links
+footer:
+  links:
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/md-tanvir-islam-emon-5a60782a0/"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/your-username"
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: "mailto:tanvirtjs2002@gmail.com"
+  since: "2025"
+
+# Plugins
 plugins:
-  - jekyll-remote-theme
-  - jekyll-feed
+  - jekyll-paginate
   - jekyll-sitemap
+  - jekyll-gist
+  - jekyll-feed
+  - jekyll-include-cache
+
+# Defaults for Pages and Posts
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: false
+      share: true
+      related: true
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
+      author_profile: true
